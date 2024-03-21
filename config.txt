@@ -1,0 +1,3 @@
+channel one 5050 5
+channel two 5051 5
+channel ito 5052 5
