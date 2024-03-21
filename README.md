@@ -13,6 +13,12 @@ many are ahead of them in the queue</li>
     <li>Clients are automatically kicked after 100 seconds of inactivity</li>
 </ul>
 
+Run commands:
+```
+python3 chatserver.py [config_path]
+python3 chatclient.py [port] [username]
+```
+
 ## Client commands
 ```
 /whisper [target_name] [message]
