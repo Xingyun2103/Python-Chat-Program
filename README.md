@@ -13,7 +13,7 @@ many are ahead of them in the queue</li>
     <li>Clients are automatically kicked after 100 seconds of inactivity</li>
 </ul>
 
-Run commands:
+**Run commands:**
 ```
 python3 chatserver.py [config_path]
 python3 chatclient.py [port] [username]
@@ -58,7 +58,7 @@ Kicks the target client out of the channel if the client is inside the channel, 
 ```
 
 Will mute the target client for the specified amount of time. During this period the client cannot send messages but may
-still use other commands (besides /whisper). Attempts to send messages will be met with a reminder on how long the client
+still use other commands (besides /whisper). Attempts to send messages will be met with a reminder on how much longer the client
 will be muted for.
 
 ```
